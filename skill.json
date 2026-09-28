@@ -1,0 +1,38 @@
+{
+  "name": "genpark-cosine-bm25-reciprocal-rank-fusion-skill",
+  "version": "1.0.0",
+  "description": "Zero-dependency hybrid retrieval engine fusing sparse lexical BM25 Okapi and dense Cosine vector similarities via Reciprocal Rank Fusion.",
+  "category": "Service",
+  "author": "AlphaPark",
+  "tags": [
+    "bm25",
+    "hybrid-search",
+    "reciprocal-rank-fusion",
+    "vector-search",
+    "rrf",
+    "zero-dependency",
+    "mcp"
+  ],
+  "tools": [
+    {
+      "name": "index_documents",
+      "description": "Index documents with text tokens and dense embedding vectors."
+    },
+    {
+      "name": "bm25_search",
+      "description": "Perform BM25 Okapi lexical sparse search."
+    },
+    {
+      "name": "dense_search",
+      "description": "Perform dense cosine vector similarity search."
+    },
+    {
+      "name": "fuse_rrf",
+      "description": "Combine sparse and dense rankings using Reciprocal Rank Fusion formula."
+    },
+    {
+      "name": "run_benchmark_rrf_fusion",
+      "description": "Execute hybrid search and RRF fusion verification benchmark."
+    }
+  ]
+}
